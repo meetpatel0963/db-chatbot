@@ -1,0 +1,19 @@
+.messages {
+  padding: 5% 0;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.message-vertical-margin{
+  margin:3% 0;
+}
+
+.messages::-webkit-scrollbar {
+  width: 7px;
+  background-color: transparent;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #555;
+}

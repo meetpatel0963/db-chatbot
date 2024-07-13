@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+* {
+  font-family: Montserrat;
+}
+
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  height: 80%;
+  width: 40%;
+}
+
+/* Media Queries for responsive webapp */
+
+@media (min-width:320px) and (max-width:620px){
+  .container {
+    width: 95%;
+  }
+}
+
+@media (min-width: 620px) and (max-width: 700px) {
+  /* .outerContainer {
+    height: 100%;
+  } */
+
+  .container {
+    width: 90%;
+    /* height: 100%; */
+  }
+}
+
+@media (min-width: 700px) and (max-width: 950px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}

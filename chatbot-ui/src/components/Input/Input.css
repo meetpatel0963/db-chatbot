@@ -1,0 +1,26 @@
+.input {
+  background-color: whitesmoke;
+}
+
+.avatar-container {
+  width: 10%;
+  position: relative !important;
+}
+
+.button-container {
+  background-color: rgb(58, 168, 236) !important;
+  padding: 1px;
+  margin: 15%;
+  position: absolute !important;
+  bottom: 0 !important;
+}
+
+.icon-button {
+  color: white !important;
+}
+
+.combine {
+  margin: 3px;
+  margin-top: 7px;
+  display: flex;
+}
